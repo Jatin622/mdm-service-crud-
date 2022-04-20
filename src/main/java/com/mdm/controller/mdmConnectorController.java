@@ -44,7 +44,7 @@ public class mdmConnectorController {
 			System.out.println("error");
 			return ResponseEntity.ok(HttpStatus.BAD_REQUEST);
 			
-//			return ResponseEntity.ok(MdmResponseUtil.populateResponseString("Failure" , new Error("Unable to find the  Records ...", ex.getMessage())));
+
 		}
 	}
 		@GetMapping("/getAllConnector")
